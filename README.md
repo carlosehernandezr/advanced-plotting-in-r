@@ -48,7 +48,18 @@ Source Classification Code Table (\color{red}{\verb|Source_Classification_Code.r
 
 ![Answer 5](./answer5.png)
 
-#### 6 Compare emissions from motor vehicle sources in Baltimore City with emissions from motor vehicle sources in Los Angeles County, California (fips == "06037"). Which city has seen greater changes over time in motor vehicle emissions?
+#### Compare emissions from motor vehicle sources in Baltimore City with emissions from motor vehicle sources in Los Angeles County, California (fips == "06037"). Which city has seen greater changes over time in motor vehicle emissions?
 
 ![Answer 6](./answer6.png)
 
+## Quick start
+
+| Step | Example |
+| ------------- | ------------- |
+| Download the data and unzip the files on the project folder | https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2FNEI_data.zip |
+| Run each script  | ```answer1.R``` - ```answer2.R``` - ```answer3.R``` - ```answer4.R``` - ```answer5.R``` - ```answer6.R```  |
+
+## Dependecies
+
+This project use the **dplyr** and **ggplot2** packages, you can download from **CRAN** just like that:
+`install.packages('dplyr','ggplot2')`
